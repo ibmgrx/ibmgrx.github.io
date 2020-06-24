@@ -16,7 +16,7 @@ a {
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://drive.google.com/uc?export=download&id=18B1pYe2kpk4KiOveYG7NmrMx3x4Ksqk5);
-  background-size: cover;
+  background-size: 100%;
   background-color: rgba(220, 255, 228, 0.9);
   color: white;
   text-align: center;
