@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -5,6 +9,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.clear {
+  clear: left;
 }
 
 .container {
@@ -30,19 +38,13 @@ a {
   margin-bottom: 5px;
 }
 
-.top-wrapper h2 {
-  opacity: 0.7;
-  font-size: 30px;
-  letter-spacing: 3px;
-  margin-bottom: 10px;
-}
-
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
 }
 
 .btn-wrapper {
+  text-align: center;
   margin: 20px 0;
 }
 
@@ -69,6 +71,7 @@ a {
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -86,11 +89,6 @@ header {
   position:fixed;
   top:0;
   z-index:10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
 }
 
 .header-left {
@@ -156,7 +154,7 @@ header {
 
 .lesson-icon p {
   position: absolute;
-  top: 75px;
+  top: 44%;
   width: 100%;
   color: white;
   font-weight:bold;
@@ -170,13 +168,13 @@ header {
   color: #b3aeb5;
 }
 
-.heading h2 {
+.heading h3 {
   font-weight: normal;
 }
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   text-align: center;
 }
 
@@ -193,8 +191,9 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
+footer h1{
+  color: #b3aeb5;
+  font-size: 25px;
 }
 
 footer p {
@@ -205,9 +204,4 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 10px;
-}
-
-footer h1{
-  color: #b3aeb5;
-  font-size: 25px;
 }
