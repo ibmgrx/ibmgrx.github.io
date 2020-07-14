@@ -91,7 +91,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(105, 85, 132, 0.9);
+  background-color: rgba(15, 185, 177, 0.6);
   position :fixed;
   top: 0;
   z-index: 10;
