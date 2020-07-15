@@ -91,7 +91,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(15, 185, 177, 0.6);
+  background-color: rgba(15, 185, 177, 0.8);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -186,9 +186,9 @@ header {
 
 .message {
   padding: 15px 40px;
-  background-color: #744b84;
+  background-color: #45aaf2;
   cursor: pointer;
-  box-shadow: 0 7px #525584;
+  box-shadow: 0 7px #2d98da;
 }
 
 .message:active {
